@@ -175,3 +175,10 @@ li {
     background-color: black;
     opacity: .5;
 }
+
+/* Section Api */
+
+.section-api{
+    display: flex;
+    justify-content: center;
+}
