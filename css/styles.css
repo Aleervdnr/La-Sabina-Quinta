@@ -2,6 +2,7 @@
   --black: #000;
   --bg-white: rgb(236, 236, 236);
   --white: #fff;
+  --rojo: rgb(255, 0, 0);
 }
 
 body {
@@ -20,6 +21,11 @@ li {
 
 .bg-white{
     background-color: var(--white);
+}
+
+.border-bottom-gray{
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding-bottom: 2px;
 }
 
 /* Header */
@@ -110,7 +116,8 @@ li {
 /* Article */
 
 .article {
-  margin: 10px 5%;
+    width: 100%;
+  padding: 10px 3%;
 }
 
 
@@ -178,7 +185,57 @@ li {
 
 /* Section Api */
 
+.fa-map-marker-alt{
+    color: var(--rojo);
+}
+
+.section-ubication{
+    background-color: var(--white);
+    padding: 15px 0;
+}
+
 .section-api{
+    background-color: var(--white);
+    padding: 15px 0;
     display: flex;
     justify-content: center;
+}
+
+/* Hero 3 */
+.hero3{
+    width: 100%;
+    height: 30vh;
+    background-image: url(../img/hero3.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.hero3::before,.hero3::after{
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+}
+
+.hero3::after{
+    content: "Contacto";
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    color: var(--white);
+}
+
+.hero3::before{
+    content: "";
+    background-color: black;
+    opacity: .5;
+}
+
+/* Section contacto */
+
+.section2{
+    width: 100%;
+    height: 500px;
 }
