@@ -191,7 +191,7 @@ li {
 
 .section-ubication{
     background-color: var(--white);
-    padding: 15px 0;
+    padding: 15px 0 5px 0;
 }
 
 .section-api{
