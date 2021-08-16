@@ -196,7 +196,7 @@ li {
 
 .section-api{
     background-color: var(--white);
-    padding: 15px 0;
+    padding: 0 0 15px 0;
     display: flex;
     justify-content: center;
 }
