@@ -18,6 +18,10 @@ li {
   text-align: center;
 }
 
+.bg-white{
+    background-color: var(--white);
+}
+
 /* Header */
 
 .header {
