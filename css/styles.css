@@ -149,6 +149,10 @@ li {
   grid-gap: 5px;
 }
 
+.img-relleno{
+  display: none;
+}
+
 /* .img1{
   grid-area: img1;
 }
@@ -321,6 +325,10 @@ li {
     grid-gap: 5px;
   }
 
+  .img-relleno{
+    display: block;
+  }
+
   .img10{
     grid-column: 2/3;
   }
@@ -351,6 +359,12 @@ li {
     border: 1px solid rgb(219, 219, 219);
     margin: 10px;
     padding: 10px;
+    display: grid;
+    place-content: center;
+  }
+
+  .icon-ubi{
+    margin-bottom: 5px;
   }
 
   .footer__p{
