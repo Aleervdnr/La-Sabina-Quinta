@@ -19,13 +19,13 @@ li {
   text-align: center;
 }
 
-.bg-white{
-    background-color: var(--white);
+.bg-white {
+  background-color: var(--white);
 }
 
-.border-bottom-gray{
-    border-bottom: 1px solid rgb(219, 219, 219);
-    padding-bottom: 2px;
+.border-bottom-gray {
+  border-bottom: 1px solid rgb(219, 219, 219);
+  padding-bottom: 2px;
 }
 
 /* Header */
@@ -116,10 +116,9 @@ li {
 /* Article */
 
 .article {
-    width: 100%;
+  width: 100%;
   padding: 10px 3%;
 }
-
 
 .section1__title {
   margin: 0 10px 10px;
@@ -140,141 +139,222 @@ li {
 }
 
 .section1__grid-container {
-    display: grid;
-    grid-template-areas: 
+  display: grid;
+  grid-template-areas:
     "img1 img2"
     "img3 img4"
     "img5 img6"
     "img7 img8"
     "img9 img10";
-    grid-gap: 5px;
+  grid-gap: 5px;
 }
 
+/* .img1{
+  grid-area: img1;
+}
+
+.img2{
+  grid-area: img2;
+}
+
+.img3{
+  grid-area: img3;
+}
+
+.img4{
+  grid-area: img4;
+}
+
+.img5{
+  grid-area: img5;
+} */
 /* Hero 2 */
 
-.hero2{
-    width: 100%;
-    height: 30vh;
-    background-image: url(../img/hero2.jpeg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+.hero2 {
+  width: 100%;
+  height: 30vh;
+  background-image: url(../img/hero2.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
-.hero2::before,.hero2::after{
-    width: 100%;
-    height: 30vh;
-    position: absolute;
+.hero2::before,
+.hero2::after {
+  width: 100%;
+  height: 30vh;
+  position: absolute;
 }
 
-.hero2::after{
-    content: "Donde nos encontramos";
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    font-weight: 200;
-    color: var(--white);
+.hero2::after {
+  content: "Donde nos encontramos";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: var(--white);
 }
 
-.hero2::before{
-    content: "";
-    background-color: black;
-    opacity: .5;
+.hero2::before {
+  content: "";
+  background-color: black;
+  opacity: 0.5;
 }
 
 /* Section Api */
 
-.fa-map-marker-alt{
-    color: var(--rojo);
+.fa-map-marker-alt {
+  color: var(--rojo);
 }
 
-.section-ubication{
-    background-color: var(--white);
-    padding: 15px 0 5px 0;
+.section-ubication {
+  background-color: var(--white);
+  padding: 15px 0 5px 0;
 }
 
-.section-api{
-    background-color: var(--white);
-    padding: 0 0 15px 0;
-    display: flex;
-    justify-content: center;
+.section-api {
+  background-color: var(--white);
+  padding: 0 0 15px 0;
+  display: flex;
+  justify-content: center;
 }
 
 /* Hero 3 */
-.hero3{
-    width: 100%;
-    height: 30vh;
-    background-image: url(../img/hero3.jpeg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+.hero3 {
+  width: 100%;
+  height: 30vh;
+  background-image: url(../img/hero3.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
-.hero3::before,.hero3::after{
-    width: 100%;
-    height: 30vh;
-    position: absolute;
+.hero3::before,
+.hero3::after {
+  width: 100%;
+  height: 30vh;
+  position: absolute;
 }
 
-.hero3::after{
-    content: "Contacto";
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 200;
-    color: var(--white);
+.hero3::after {
+  content: "Contacto";
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 200;
+  color: var(--white);
 }
 
-.hero3::before{
-    content: "";
-    background-color: black;
-    opacity: .5;
+.hero3::before {
+  content: "";
+  background-color: black;
+  opacity: 0.5;
 }
 
 /* Section contacto */
 
-.section-reserva{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.section-reserva {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.button{
-    background-color: var(--white);
-    color: var(--black);
-    text-decoration: none;
-    width: 70%;
-    border: 1px solid rgb(219, 219, 219);
-    margin: 5px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.button {
+  background-color: var(--white);
+  color: var(--black);
+  text-decoration: none;
+  width: 70%;
+  border: 1px solid rgb(219, 219, 219);
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.icon-reserva{
-    padding-right: 5px;
-    font-size: 25px;
-    color: var(--black);
+.icon-reserva {
+  padding-right: 5px;
+  font-size: 25px;
+  color: var(--black);
 }
 
 /* Footer */
 
-.footer{
-    width: 100%;
-    height: 75px;
-    background-color: var(--black);
-    color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 12px;
+.footer {
+  width: 100%;
+  height: 75px;
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 12px;
 }
 
-.footer__p{
-    margin: 5px;
+.footer__p {
+  margin: 5px;
+}
+
+.footer__link{
+  color: var(--white);
+}
+
+/* Laptop media */
+@media (min-width: 1025px){
+  .hero::after {
+    font-size: 45px;
+    content: "Quinta la sabina";
+  }
+
+  .section1__grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "img1 img2 img3"
+      "img4 img5 img6"
+      "img7 img8 img9"
+      "img10";
+    grid-gap: 5px;
+  }
+
+  .img10{
+    grid-column: 2/3;
+  }
+
+  .section1__title::after {
+    content: "";
+    width: 25%;
+    height: 2px;
+
+  }
+
+  .hero2::after {
+    content: "Donde nos encontramos";
+    font-size: 25px;
+  }
+
+  .hero3::after {
+    content: "Contacto";
+    font-size: 25px;
+  }
+
+  .ubication__flex-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .box-p{
+    border: 1px solid rgb(219, 219, 219);
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .footer__p{
+    font-size: 15px;
+  }
+
 }
