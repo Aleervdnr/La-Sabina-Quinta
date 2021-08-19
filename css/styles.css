@@ -5,6 +5,10 @@
   --rojo: rgb(255, 0, 0);
 }
 
+*{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--bg-white);
   font-family: "Poppins", sans-serif;
