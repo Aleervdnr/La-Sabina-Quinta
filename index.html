@@ -26,13 +26,28 @@
   </head>
   <body>
     <header class="header">
-      <div class="logo">
-        <h1 class="h1">
-          <span class="logo__quinta">Quinta</span>
-          <span class="logo__name">La Sabina</span>
-        </h1>
-      </div>
-      <nav class="menu"></nav>
+      <nav class="nav">
+        <nav class="menu">
+          <ul class="menu__ul">
+            <li class="menu__li"><a href="#" class="menu__link">Inicio</a></li>
+            <li class="menu__li"><a href="#" class="menu__link">Sobre Nosotros</a></li>
+          </ul>
+        </nav>
+        <div class="logo">
+          <h1 class="h1">
+            <span class="logo__quinta">Quinta</span>
+            <span class="logo__name">La Sabina</span>
+          </h1>
+        </div>
+        <nav class="menu">
+          <ul class="menu__ul">
+            <li class="menu__li"><a href="#" class="menu__link">Donde Nos Encontramos</a></li>
+            <li class="menu__li"><a href="#" class="menu__link">Contacto</a></li>
+          </ul>
+        </nav>
+      </nav>
+      
+      <!-- Social lo pasamos al footer -->
       <div class="social">
         <ul class="social__ul">
           <li class="social__li">
@@ -135,6 +150,35 @@
       </section>
     </article>
 
-    <footer class="footer"> <p class="footer__p">Quinta "La Sabina"</p> <p class="footer__p2">Desarrollada por: <a href="https://aleervdnr.github.io/portafolio/" target="blank" class="footer__link">Rivadeneira Alejo</a></p> </footer>
+    <footer class="footer"> <p class="footer__p">Quinta "La Sabina"</p> <p class="footer__p2">Desarrollada por: <a href="https://aleervdnr.github.io/portafolio/" target="blank" class="footer__link">Rivadeneira Alejo</a></p> 
+      <div class="footer__social">
+        <ul class="social__ul flex-column">
+          <li class="social__li">
+            <a
+              href="https://www.instagram.com/la_sabina_quinta/"
+              class="social__link link-ig"
+              target="blank"
+              ><i class="fab fa-instagram icon"></i
+            ></a>
+          </li>
+          <li class="social__li">
+            <a
+              href="https://www.facebook.com/lasabina.quinta"
+              class="social__link link-fb"
+              target="blank"
+              ><i class="fab fa-facebook icon"></i
+            ></a>
+          </li>
+          <li class="social__li">
+            <a
+              href="https://wa.me/541122513974?text=Hola!%20Quinta%20 La%20Sabina,%20me%20interesa%20obtener%20mas%20información"
+              class="social__link link-wpp"
+              target="blank"
+              ><i class="fab fa-whatsapp icon"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
