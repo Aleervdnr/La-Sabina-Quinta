@@ -86,8 +86,16 @@ margin: 0 2%;
 .menu__link{
   text-decoration: none;
   color: var(--white);
+  padding-bottom: 1px;
 }
 
+.menu__link:hover{
+  border-bottom: 1px solid #fff;
+}
+
+.social{
+  margin-right: 10px;
+}
 
 .social__ul {
   display: flex;
@@ -436,7 +444,16 @@ margin: 0 2%;
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 10px;
+    right: 40px;
   }
+
+  .icon{
+    font-size: 18px;
+  }
+
+  .social__li{
+    margin: 0 10px;
+  }
+
 
 }
