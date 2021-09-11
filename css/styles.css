@@ -158,13 +158,24 @@ margin: 0 2%;
 
 .ghost{
   height: 100px;
+  
+}
+
+.ghost2{
+  height: 88px;
+  width: 0px;
+  align-self: flex-end;
 }
 
 /* Article */
 
-.article {
+.article, .article1 {
   width: 100%;
   padding: 10px 3%;
+}
+
+.article1{
+  display: flex;
 }
 
 /* .section1{
@@ -232,7 +243,6 @@ margin: 0 2%;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
- margin-top: 100px;
 }
 
 .hero2::before,
